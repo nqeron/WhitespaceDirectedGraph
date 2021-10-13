@@ -1,0 +1,12 @@
+[
+  {"type":  "dist", "args":  {"route":  ["A", "B", "C"]}},
+  {"type":  "dist", "args":  {"route":  ["A", "D"]}},
+  {"type":  "dist", "args":  {"route":  ["A", "D", "C"]}},
+  {"type":  "dist", "args":  {"route":  ["A", "E", "B", "C", "D"]}},
+  {"type":  "dist", "args":  {"route":  ["A", "E", "D"]}},
+  {"type": "routes", "args":  {"from":  "C", "to":  "C", "min": 0, "max": 3, "type":  "trips"}},
+  {"type": "routes", "args":  {"from":  "A", "to":  "C", "min": 4, "max": 4, "type":  "trips"}},
+  {"type": "minDist", "args":  {"from":  "A", "to":  "C"}},
+  {"type": "minDist", "args":  {"from":  "B", "to":  "B"}},
+  {"type": "routes", "args":  {"from":  "C", "to":  "C", "min": 0, "max": 30, "type": "dist"}}
+]
